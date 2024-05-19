@@ -1,0 +1,22 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: navy;
+  font-family: sans-serif;
+}
+
+img{
+  height: 400px;
+  width: 300px;
+}
+
+img{
+  filter: grayscale(100%);
+  transition: all ease-in 1s;
+}
+
+img:hover{
+  filter: grayscale(0%);
+}
